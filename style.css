@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+.hero{
+    color: black;
+    font-family: 'Glory', sans-serif;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color : rgb(0, 0, 0)
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5 rem;
+    border: 1px solid var(--primary-color);
+}
