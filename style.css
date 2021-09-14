@@ -5,7 +5,10 @@
 .hero {
     font-family: 'Glory', sans-serif;
 }
-
+body{
+    font-family: 'Glory', sans-serif;
+    margin: 0px;
+}
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem
@@ -34,12 +37,16 @@
 .navigation {
     background-color: #14532d;
     padding: 1rem;
-    border-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     font-family: 'Glory', sans-serif;
     
 }
 .navigation .nav-pills{
     text-align: right;
+}
+
+.small{
+    text-align: left;
 }
 
 .navigation .link{
@@ -75,21 +82,22 @@
 .section{
     padding: 2rem;
     font-family: 'Glory', sans-serif;
-}
-.section{
     text-align: center;
 }
+
+
 .ow{
     background-color: #cfe6d7;
 }
 /** footers **/
 .footer .ul{
     padding-inline-start: 0px;
+    
 }
 .footer {
 background-color: #14532d;
 padding: 2rem;
-border-radius: 1rem;
+border-top-right-radius: 1rem;
 text-align: center;
 font-size: larger;
 }
